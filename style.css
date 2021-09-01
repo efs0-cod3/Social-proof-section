@@ -1,0 +1,196 @@
+/*================FONT=================*/
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+/*================CODE=================*/
+body {
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+   
+}
+
+article {
+    text-align: center;
+
+}
+
+article p {
+    color: 	hsl(304, 7%, 61%);
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+h1 {
+    line-height: 1;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 80px 32px 36px;
+    margin: 0;
+}
+
+.h2-header {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.card-header{
+    display: flex;
+    padding-bottom: 10px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: left;
+}
+img{
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.p-header {
+    color: hsl(333, 80%, 67%);
+    margin: 0;
+}
+
+.stars {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 18px 32px;
+    width: 327px;
+    text-align: center;
+}
+.checked{
+    color: 	hsl(28, 83%, 60%);
+}
+
+.container-star {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 72px;
+    margin-bottom: 65px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 18px;
+
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 32px;
+    width: 327px;
+    color: hsl(0, 0%, 100%);
+}
+.card-content p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:500px) {
+   
+    h1 {
+        padding: 80px 90px 36px;
+    }
+
+    article p {
+        color: #A294A1;
+        padding: 0 45px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+@media (min-width:800px){
+  
+    .cont{
+
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "article star"
+        "con con";
+        padding:30px 50px 50px;
+    }
+    .arti{
+        grid-area: article;
+        text-align: left;
+    }
+    h1{
+        padding: 30px 100px 0 0;
+        font-size: 3rem;
+    }
+    article p{
+        padding-left: 0;
+        padding-right: 50px;
+        font-size: 1rem;
+
+    }
+    .container-star{
+        grid-area: star;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .stars{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        width: 446px;
+    }
+    
+    .checked{
+        padding: 5px;
+    }
+    .stars p{
+        padding-left: 20px;
+        margin: 0;
+    }
+  
+    .card-container{
+    margin-top: 50px;
+    line-height:1.5 ;
+    grid-area: con;
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    }
+    .card{
+        padding:20px;
+    }
+    .card-2{
+        position: relative;
+        top:20px;
+    }
+    .card-3{
+        position: relative;
+        top: 40px;
+    }
+    
+    .star-2{
+        position: relative;
+        left:30px;
+    }
+    .star-3{
+        position: relative;
+        left:60px;
+    }
+}
