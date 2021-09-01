@@ -19,13 +19,21 @@ main{
     flex-direction: column;
     min-height: 100vh;
 }
+
+.arriba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 article {
     text-align: center;
+    width:316px;
 }
 
 article p {
     color: 	hsl(304, 7%, 61%);
-    width: 90vw;
     font-size: 1.1rem;
 }
 
@@ -34,7 +42,7 @@ h1 {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
     font-size: 2rem;
-    padding: 80px 32px 36px;
+    padding: 80px 20px 36px;
     margin: 0;
 }
 
