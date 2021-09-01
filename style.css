@@ -107,6 +107,9 @@ img{
 }
 
 @media (max-width:500px) {
+    .container{
+        width: 375px;
+    }
    
     h1 {
         padding: 80px 10px 36px;
