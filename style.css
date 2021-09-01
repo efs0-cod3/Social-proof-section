@@ -114,11 +114,13 @@ img{
 }
 
 @media (max-width:500px) {
-      .cont{
+    
+    .cont{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 375px;
     }
     
     .container{
