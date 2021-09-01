@@ -113,6 +113,12 @@ img{
 }
 
 @media (max-width:500px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .cont{
         display: flex;
         flex-direction: column;
