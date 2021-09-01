@@ -131,12 +131,7 @@ img{
 }
 
 @media (max-width:500px) {
-    .card-container{
-        width:375px;
-    }
-    .container-star{
-        width:375px;
-    }
+   
     .stars {
         background-color: hsl(300, 24%, 96%);
         border-radius: 10px;
