@@ -113,13 +113,6 @@ img{
 }
 
 @media (max-width:500px) {
-    main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
     .cont{
         display: flex;
         flex-direction: column;
@@ -128,6 +121,7 @@ img{
         overflow:hidden;
         width:375px;
     }
+    
    .container{
        width:325px;
     }
