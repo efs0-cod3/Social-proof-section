@@ -1,7 +1,7 @@
-/*================FONT=================*/
+/* ================FONT================= */
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 
-/*================CODE=================*/
+/* ================CODE================= */
 body {
     font-family: 'Spartan', sans-serif;
     margin: 0;
@@ -59,8 +59,8 @@ img{
 .stars {
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px;
-    padding: 18px 32px;
-    width: 327px;
+    padding: 15px 20px;
+    width: 320px;
     text-align: center;
 }
 .checked{
@@ -88,8 +88,8 @@ img{
 .card {
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    padding: 32px;
-    width: 327px;
+    padding: 20px;
+    width: 320px;
     color: hsl(0, 0%, 100%);
 }
 .card-content p{
