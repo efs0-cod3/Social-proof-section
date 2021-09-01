@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/social-proof-section-HslSajgWC)
 - Live Site URL: [github](https://efs0-cod3.github.io/Social-proof-section/)
 
 ## My process
