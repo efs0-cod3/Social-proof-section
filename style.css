@@ -11,6 +11,7 @@ body {
     font-family: 'Spartan', sans-serif;
     background-image: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat,no-repeat;
+    background-position: top 0px left 0px, top 1040px left 0px
 }
 
 main{
@@ -140,6 +141,7 @@ img{
     body{
         background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat,no-repeat;
+        background-position: top 0px left -90px, top 80px left 130px;
     }
     main{
         width: 1020px;
