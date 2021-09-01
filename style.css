@@ -83,7 +83,6 @@ img{
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px;
     width: 325px;
-    max-width: 90%;
     text-align: center;
 }
 
@@ -97,6 +96,7 @@ img{
     font-size: 15px;
     margin-top: 72px;
     margin-bottom: 65px;
+    max-width: 90%;
 }
 
 .container-star p{
@@ -129,6 +129,7 @@ img{
 }
 
 .card-container{
+    max-width: 90%;
     margin-bottom: 50px;
 }
 
