@@ -7,10 +7,6 @@ body {
     margin: 0;
 }
 
-.cont{
-    width:375px;
-}
-
 article {
     text-align: center;
 
@@ -123,7 +119,6 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 375px;
         overflow:hidden;
     }
     
