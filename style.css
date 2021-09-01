@@ -96,7 +96,6 @@ img{
     font-size: 15px;
     margin-top: 72px;
     margin-bottom: 65px;
-    max-width: 90%;
 }
 
 .container-star p{
@@ -117,7 +116,6 @@ img{
     border-radius: 10px;
     padding: 20px;
     width: 325px;
-    max-width: 90%;
     height: 245px;
     line-height: 1.5;
     color: hsl(0, 0%, 100%);
@@ -129,16 +127,20 @@ img{
 }
 
 .card-container{
-    max-width: 90%;
     margin-bottom: 50px;
 }
 
 @media (max-width:500px) {
+    .container-star{
+        width: 375px;
+    }
+    
     .stars {
         background-color: hsl(300, 24%, 96%);
         border-radius: 10px;
         padding: 15px 20px;
         width: 320px;
+        max-width: 95%;
         text-align: center;
     }
     
@@ -147,6 +149,7 @@ img{
         border-radius: 10px;
         padding: 20px;
         width: 320px;
+        max-width: 95%;
         color: hsl(0, 0%, 100%);
     }
 }
