@@ -120,9 +120,12 @@ img{
         justify-content: center;
         align-items: center;
         overflow:hidden;
-        width:365px;
+        width:375px;
     }
-   
+   .container{
+       width:325px;
+    }
+    
     h1 {
         padding: 80px 10px 36px;
     }
