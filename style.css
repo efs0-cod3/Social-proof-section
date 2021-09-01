@@ -250,3 +250,19 @@ img{
         padding-bottom: 10px;
     }   
 }
+.attribution{
+    text-align: center;
+}
+.attribution a{
+    text-decoration: none;
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+ 
+    
+}
+.attribution a:hover{
+    cursor: pointer;
+    text-decoration: underline 2px;
+    transition: .5s ease;
+    color:hsl(28, 83%, 60%);
+}
